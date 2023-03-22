@@ -1,21 +1,17 @@
 <!DOCTYPE html>
   <html>
     <head>
-      <script>
-        function myFunction() {
-          if (document.getElementById("btn01").innerHTML = "naa") {
-            document.getElementById("btn01").innerHTML = "jooo";
-          } else {
-            document.getElementById("btn01").innerHTML = "naa";
-          }
-        }
-      </script>
+	  <script src="javascript1.js"></script>
     </head>
-    <body>
-      <h2>Demo JavaScript in Head</h2>
-      <p id="demo">A Paragraph</p>
-
-      <button id="btn01" type="button" onclick="myFunction()">Try me</button>
-
+  <body style="font-family: Arial, Helvetica, sans-serif;">
+    <div style="width:100%; height:10vh; text-align:center;"><!--header-->
+      <h1 style="color:red;">Demo Javascript in head</h1>
+	</div>  
+		Zahl 1: <input id="input01" type="number"/>
+		<br>
+		Zahl 2: <input id="input02" type="number"/>
+		<br>
+		<button id="enter" onclick="myFunction()">Enter</button>
+		<p id="output">Output</p>
   </body>
 </html>
